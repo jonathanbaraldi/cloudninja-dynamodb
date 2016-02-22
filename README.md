@@ -16,12 +16,11 @@ Repo criado para ser usado no curso preparatório para AWS Certified Developer A
 
 ===========================
 2 - Carregar as tabelas
-	
-	Rodar na linha de comando.
+Rodar na linha de comando.
 
 	aws configure
 
-	us-east-1
+		us-east-1
 
 	aws dynamodb batch-write-item --request-items file://ProductCatalog.json
 
