@@ -5,9 +5,11 @@ Repo criado para ser usado no curso preparatório para AWS Certified Developer A
 	sudo su
 	yum update -y
 	yum install git -y
-	yum install nodejs npm —-enablerepo=epel
+	yum install nodejs npm —-enablerepo=epel -y
 	git clone https://github.com/jonathanbaraldi/cloudninja-dynamodb.git
 	cd cloudninja-dynamodb
+
+	npm install aws-sdk
 	
 	node CreateTable.js
 
@@ -17,6 +19,9 @@ Repo criado para ser usado no curso preparatório para AWS Certified Developer A
 	
 	Rodar na linha de comando.
 
+	aws configure
+
+	us-east-1
 
 	aws dynamodb batch-write-item --request-items file://ProductCatalog.json
 

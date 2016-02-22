@@ -29,8 +29,7 @@ var dynamodb = new AWS.DynamoDB();
         console.log("ERROR");
         console.log(err);
       } else { 
-        console.log("OK");
-        console.log(data);
+        console.log("Tabela ProductCatalog criada com sucesso!");
       }
 
   });
@@ -56,8 +55,7 @@ var dynamodb = new AWS.DynamoDB();
         console.log("ERROR");
         console.log(err);
       } else { 
-        console.log("OK");
-        console.log(data);
+        console.log("Tabela Form criada com sucesso!");
       }
 
   });
@@ -87,8 +85,7 @@ var dynamodb = new AWS.DynamoDB();
         console.log("ERROR");
         console.log(err);
       } else { 
-        console.log("OK");
-        console.log(data);
+        console.log("Tabela Thread criada com sucesso!");
       }
   });
 
@@ -131,7 +128,6 @@ var dynamodb = new AWS.DynamoDB();
         console.log("ERROR");
         console.log(err);
       } else { 
-        console.log("OK");
-        console.log(data);
+        console.log("Tabela Reply criada com sucesso!");
       }
   });
